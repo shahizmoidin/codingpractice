@@ -1,7 +1,7 @@
 #sums of two list 
 class Solution(object):
     
-    def twoSum(self, nums, target):
+    def twoSum(self, nums,target):
         list1=[]
         l=0
         for i in range(len(nums)):
