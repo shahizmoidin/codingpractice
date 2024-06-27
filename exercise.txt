@@ -1,0 +1,48 @@
+numbers =input("Enter the numbers separated by a space:")
+numbers=[int(num) for num in numbers.split()]
+total=sum(numbers)
+print("The sum of the numbers is:",total)
+-------------------------------------------------------------
+
+def division():
+    a =int(input("Enter the first number:"))
+    b =int(input("Enter the second number:"))
+
+    if b==0:
+        print("None,cant be divided")
+    else:
+        quotient =a // b
+        remainder =a % b
+        print("quotient is",quotient)
+        print("remainder is",remainder)
+division()
+---------------------------------------------------------------------
+def duplicates(lst):
+    return list(set(lst))
+
+in_str=input("Enter the elements separated by a spaces:")
+in_list =in_str.split()
+result=duplicates(in_list)
+print("after duplicate removed:",result)
+
+------------------------------------------------------------------------
+n =int(input("Enter the number:"))
+def fizbuz(n):
+    result=[]
+    for i in range(1,n+1):
+        if i % 3==0:
+            result.append("fizz")    
+        elif i % 5==0:
+              result.append("buzz")         
+        elif  i % 3==0 and i % 5==0:
+             result.append("fizzBuzz")     
+        else:
+            result.append(str(i))
+    return result
+
+output = fizbuz(n)
+print(output)
+------------------------------------------------------------
+
+
+
