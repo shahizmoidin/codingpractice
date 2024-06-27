@@ -1,2 +1,3 @@
 # codingpractice
-interview coding problems
+interview coding problem
+#day1 completed
